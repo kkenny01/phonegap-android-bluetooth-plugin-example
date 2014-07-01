@@ -28,7 +28,7 @@ function updateDeviceList(number) {
 }
 
 $(document).ready( function () {
-	alert("OOXX");
+	$("#get-discoverable-devices").text('!!!!');
 	$('#get-discoverable-devices').bind('click', getDevicesEvent);
 });
 
