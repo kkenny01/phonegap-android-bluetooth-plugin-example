@@ -28,6 +28,7 @@ function updateDeviceList(number) {
 }
 
 $(document).ready( function () {
+	$("msg").text("start");
 	$('#get-discoverable-devices').bind('click', getDevicesEvent);
 });
 
@@ -35,6 +36,7 @@ $(document).ready( function () {
  * Event fired when user clicks the Get some devices link.
  */
 function getDevicesEvent() {
+	$("msg").text("click");
 	getDevices(
 			function(r){
 				// The call has been successfully made.
