@@ -28,7 +28,6 @@ function updateDeviceList(number) {
 }
 
 $(document).ready( function () {
-	$("#get-discoverable-devices").text('!!!!');
 	$('#get-discoverable-devices').bind('click', getDevicesEvent);
 });
 
